@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Go23EthereumABI_Example' do
+  pod 'Go23EthereumABI', :path => '../'
+
+  target 'Go23EthereumABI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
