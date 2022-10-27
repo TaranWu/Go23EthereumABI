@@ -1,16 +1,37 @@
 PODS:
-  - Go23EthereumABI (0.1.0)
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - CryptoSwift (1.6.0)
+  - Go23EthereumABI (0.1.0):
+    - BigInt (~> 3.1)
+    - CryptoSwift (~> 1.0)
+    - Go23EthereumAddress
+  - Go23EthereumAddress (0.1.0):
+    - CryptoSwift (~> 1.0)
+  - SipHash (1.2.2)
 
 DEPENDENCIES:
   - Go23EthereumABI (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BigInt
+    - CryptoSwift
+    - SipHash
+  https://github.com/TaranWu/Go23WalletSpec.git:
+    - Go23EthereumAddress
 
 EXTERNAL SOURCES:
   Go23EthereumABI:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Go23EthereumABI: 18edee304edb44f69d5fcff4f9be68e10d4db452
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
+  Go23EthereumABI: 5a7ef00f8d09c79468f8d6196a0a2beb59ed0ecf
+  Go23EthereumAddress: 020aef86a999274abb99331c49ad085c0a2c1b46
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
 
-PODFILE CHECKSUM: d9889d9b645d8ceb218fccf9a64992a2795fdcee
+PODFILE CHECKSUM: 0bf1d8362d9cb548d32d723b5509d14f21031daa
 
 COCOAPODS: 1.11.3

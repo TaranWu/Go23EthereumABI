@@ -1,8 +1,8 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Go23EthereumABI"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BigInt" "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift" "${PODS_CONFIGURATION_BUILD_DIR}/Go23EthereumABI" "${PODS_CONFIGURATION_BUILD_DIR}/Go23EthereumAddress" "${PODS_CONFIGURATION_BUILD_DIR}/SipHash"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Go23EthereumABI/Go23EthereumABI.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "Go23EthereumABI"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BigInt/BigInt.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift/CryptoSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Go23EthereumABI/Go23EthereumABI.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Go23EthereumAddress/Go23EthereumAddress.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SipHash/SipHash.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "BigInt" -framework "CryptoSwift" -framework "Go23EthereumABI" -framework "Go23EthereumAddress" -framework "SipHash"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

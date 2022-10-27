@@ -1,5 +1,4 @@
 import XCTest
-import Go23EthereumABI
 
 class Tests: XCTestCase {
     

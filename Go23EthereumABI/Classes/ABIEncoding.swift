@@ -5,7 +5,7 @@
 
 import Foundation
 import BigInt
-import EthereumAddress
+import Go23EthereumAddress
 
 public struct ABIEncoder {
     

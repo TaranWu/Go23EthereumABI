@@ -1,8 +1,8 @@
 {
   "name": "Go23EthereumABI",
   "version": "0.1.0",
-  "summary": "A short description of Go23EthereumABI.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Go23EthereumABI  functionality",
+  "description": "Go23EthereumABI  core functionality",
   "homepage": "https://github.com/TaranWu/Go23EthereumABI",
   "license": {
     "type": "MIT",
@@ -16,7 +16,20 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "Go23EthereumABI/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Go23EthereumABI/Classes/**/*",
+  "dependencies": {
+    "BigInt": [
+      "~> 3.1"
+    ],
+    "CryptoSwift": [
+      "~> 1.0"
+    ],
+    "Go23EthereumAddress": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

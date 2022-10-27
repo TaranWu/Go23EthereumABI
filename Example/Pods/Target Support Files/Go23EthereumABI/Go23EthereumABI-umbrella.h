@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Go23EthereumABI.h"
 
 FOUNDATION_EXPORT double Go23EthereumABIVersionNumber;
 FOUNDATION_EXPORT const unsigned char Go23EthereumABIVersionString[];

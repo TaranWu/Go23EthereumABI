@@ -176,10 +176,18 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Go23EthereumABI/Go23EthereumABI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Go23EthereumAddress/Go23EthereumAddress.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Go23EthereumABI/Go23EthereumABI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Go23EthereumAddress/Go23EthereumAddress.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
