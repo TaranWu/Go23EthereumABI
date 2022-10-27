@@ -1,0 +1,16 @@
+PODS:
+  - Go23EthereumABI (0.1.0)
+
+DEPENDENCIES:
+  - Go23EthereumABI (from `../`)
+
+EXTERNAL SOURCES:
+  Go23EthereumABI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Go23EthereumABI: 18edee304edb44f69d5fcff4f9be68e10d4db452
+
+PODFILE CHECKSUM: d9889d9b645d8ceb218fccf9a64992a2795fdcee
+
+COCOAPODS: 1.11.3

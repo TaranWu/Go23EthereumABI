@@ -1,0 +1,6 @@
+framework module Go23EthereumABI {
+  umbrella header "Go23EthereumABI-umbrella.h"
+
+  export *
+  module * { export * }
+}

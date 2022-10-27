@@ -30,11 +30,11 @@
 /* Begin PBXFileReference section */
 		0568BB4333C3814DEE0263F3 /* Pods_Go23EthereumABI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go23EthereumABI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		163C6D59ACB2750466883062 /* Pods-Go23EthereumABI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go23EthereumABI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Go23EthereumABI_Tests/Pods-Go23EthereumABI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2A9AC7DB686024FD0ED99942 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2A9AC7DB686024FD0ED99942 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		35559C390CDA4E584BA7735E /* Pods-Go23EthereumABI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go23EthereumABI_Tests.release.xcconfig"; path = "Target Support Files/Pods-Go23EthereumABI_Tests/Pods-Go23EthereumABI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3D8CB24208CDAF9495277393 /* Pods_Go23EthereumABI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go23EthereumABI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DDE00BCE243121E49DB8FAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		477FCEBF77D8E3634AF36A60 /* Go23EthereumABI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Go23EthereumABI.podspec; path = ../Go23EthereumABI.podspec; sourceTree = "<group>"; };
+		3DDE00BCE243121E49DB8FAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		477FCEBF77D8E3634AF36A60 /* Go23EthereumABI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Go23EthereumABI.podspec; path = ../Go23EthereumABI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* Go23EthereumABI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Go23EthereumABI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				163C6D59ACB2750466883062 /* Pods-Go23EthereumABI_Tests.debug.xcconfig */,
 				35559C390CDA4E584BA7735E /* Pods-Go23EthereumABI_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
